@@ -19,7 +19,7 @@ from langchain.vectorstores import FAISS
 load_dotenv()
 
 def load_data() -> List[Document]:
-    data = pd.read_csv("/home/husnain/Desktop/DIGIFLOAT_CODE/DELTA_Project/FISS/delta_electronics_ups.csv")
+    data = pd.read_csv("delta_electronics_ups.csv")
     return [
         Document(
             page_content=data.iloc[idx, :]["page_content"],
