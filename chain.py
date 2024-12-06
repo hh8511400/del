@@ -1,4 +1,4 @@
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
 from langchain_core.runnables.passthrough import RunnablePassthrough
 from langchain_core.output_parsers.string import StrOutputParser
 from langchain_core.prompts.chat import ChatPromptTemplate
